@@ -34,21 +34,7 @@ Install all the required packages using npm:
 Bash
 npm install
 
-3. Environment Variables
-Create a .env.local file in the root of your project and add the following environment variables. Replace the placeholder values with your own:
-
-Code snippet
-
-# NextAuth.js
-NEXTAUTH_URL=http://localhost:3000
-NEXTAUTH_SECRET=Contact me for the seret
-# The NEXTAUTH_SECRET is used to sign session tokens.
-# You can generate a random string using `openssl rand -base64 32`
-
-# MongoDB Connection
-MONGODB_URI=This is also a secret
-
-4. Run the Development Server
+3. Run the Development Server
 Start the application with the development server:
 
 Bash
