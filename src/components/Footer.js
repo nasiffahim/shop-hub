@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../styles/Footer.module.css'
 
 export default function Footer() {
@@ -13,9 +14,9 @@ export default function Footer() {
           <div className={styles.section}>
             <h4>Quick Links</h4>
             <ul className={styles.links}>
-              <li><a href="/">Home</a></li>
-              <li><a href="/products">Products</a></li>
-              <li><a href="/auth/signin">Sign In</a></li>
+              <li><Link href="/">Home</Link></li>
+              <li><Link href="/products">Products</Link></li>
+              <li><Link href="/auth/signin">Sign In</Link></li>
             </ul>
           </div>
           
